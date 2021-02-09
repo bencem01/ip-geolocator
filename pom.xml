@@ -9,8 +9,8 @@
 	<developers>
 		<developer>
 			<id>jeszy</id>
-			<name>Maródi Bence</name>
-			<email>marodibence@gmail.com</email>
+			<name>Péter Jeszenszky</name>
+			<email>jeszenszky.peter@inf.unideb.hu</email>
 			<organization>Faculty of Informatics, University of Debrecen</organization>
 			<organizationUrl>http://www.inf.unideb.hu/</organizationUrl>
 		</developer>
@@ -48,8 +48,7 @@
 			<artifactId>commons-lang3</artifactId>
 			<version>3.11</version>
 			<scope>compile</scope>
-		</dependency>		
-
+		</dependency>
 
 		<dependency>
 			<groupId>org.projectlombok</groupId>
