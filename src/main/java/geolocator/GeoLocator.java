@@ -18,7 +18,7 @@ public class GeoLocator {
     private static ObjectMapper OBJECT_MAPPER = new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 
     public GeoLocator() {}
-
+mb
     public GeoLocation getGeoLocation() throws IOException {
         return getGeoLocation(null);
     }
