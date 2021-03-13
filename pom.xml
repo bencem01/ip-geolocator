@@ -45,12 +45,7 @@
 
 
 
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<version>1.18.18</version>
-			<scope>compile</scope>
-		</dependency>
+
 
 	</dependencies>
 	<build>
@@ -68,19 +63,13 @@
 					<mainClass>${mainClass}</mainClass>
 				</configuration>
 			</plugin>
-
 			<plugin>
-				<groupId>org.projectlombok</groupId>
-				<artifactId>lombok-maven-plugin</artifactId>
-				<version>1.18.16.0</version>
-				<executions>
-					<execution>
-						<goals>
-							<goal>delombok</goal>
-						</goals>
-						<phase>generate-sources</phase>
-					</execution>
-				</executions>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<compilerArgs>--enable-preview</compilerArgs>
+				</configuration>
 			</plugin>
 
 			<plugin>
